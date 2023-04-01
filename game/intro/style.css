@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  height: 900px;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.inner-title h1 {
+  text-align: center;
+  margin-top: 30px;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right, #4A00E0, #8E2DE2);
+  margin-bottom: 30px;
+}
+
+.character {
+  width: 350px;
+  padding: 0px 50px;
+}
+
+.avatar {
+  display: block;
+  margin: 0 auto;
+  padding: 0px 30px;
+  margin-top: 20px;
+}
+
+.character-name {
+  margin-top: 20px;
+}
+
+.character-name h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.skills {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+}
+
+.skills-icon {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-icon img {
+  margin-bottom: 10px;
+}
+
+.elem {
+  font-size: 20px;
+  margin-bottom: 29px;
+  font-weight: 900;
+}
+
+b {
+  float: right;
+  color: black;
+}
+
+.first {
+  margin-top: 5px;
+}
+
+.unique.skills {
+  width: 40px;
+  margin-bottom: 30px;
+}
+
+.button {
+  width: 200px;
+  font-size: 15px;
+  margin-top: 9px;
+  height: 30px;
+  border: none;
+  background: greenyellow;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: dodgerblue;
+  transition: all 300ms ease;
+  cursor: pointer;
+}
+
+.skills-characteristics {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.characters {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.character {
+  border-radius: 40px;
+  background: linear-gradient(180deg, #ED213A, #93291E);
+}
+
+.section {
+  color: white;
+  height: 600px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: "Courier New", Courier, monospace;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right, #8a2387, #e94057, #f27121);
+}
+
+.section-inner {
+  display: flex;
+  justify-content: space-around;
+}
+
+.activate-skill {
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Courier New", Courier, monospace;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right, #8a2387, #e94057, #f27121);
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.start-game {
+  display: flex;
+  width: 250px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  border: none;
+  background-color: black;
+  font-weight: 900;
+  color: white;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  -webkit-box-shadow: 0px -5px 39px -1px rgba(0, 248, 251, 0.6);
+  -moz-box-shadow: 0px -5px 39px -1px rgba(0, 248, 251, 0.6);
+  box-shadow: 0px -5px 39px -1px rgba(0, 248, 251, 0.6);
+  border-radius: 10px;
+}
+
+.start-game:hover {
+  background-color: white;
+  color: black;
+  transition: all 500ms ease;
+  cursor: pointer;
+}
+
+.step-btns {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.step-btn button {
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 900;
+  -webkit-box-shadow: 0px -5px 39px -1px rgba(0, 248, 251, 0.6);
+  -moz-box-shadow: 0px -5px 39px -1px rgba(0, 248, 251, 0.6);
+  box-shadow: 0px -5px 39px -1px rgba(0, 248, 251, 0.6);
+  border-radius: 10px;
+  border: none;
+  background-color: black;
+  display: none;
+  color: white;
+}
+
+.step-btn button:hover {
+  background-color: white;
+  color: black;
+  transition: all 500ms ease;
+}
+
+input[type='range'] {
+  -webkit-appearance: none !important;
+  background: linear-gradient(to right, #11998e, #38ef7d);
+  height:10px;
+}
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+  background:blue;
+  height: 15px;
+  width: 15px;
+  border-radius: 10px;
+}
+
+.footer-block {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+  align-items: center;
+}
